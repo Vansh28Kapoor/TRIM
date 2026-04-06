@@ -1,0 +1,1 @@
+{"threshold": 0.95, "accuracy": 0.716, "num_correct": 358, "avg_total_tokens_per_question": 719.598, "avg_draft_tokens_per_question": 246.93, "avg_target_tokens_per_question": 233.344, "avg_discarded_draft_tokens_per_question": 239.324, "avg_target_calls_per_question": 3.33, "draft_token_frac": 0.6757300603948315, "target_token_frac": 0.3242699396051684}

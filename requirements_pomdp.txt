@@ -1,0 +1,16 @@
+# ============================================================
+# TRIM — POMDP precomputation dependencies
+#
+# Extends requirements.txt with Julia/POMDP bridge packages.
+# Install:  pip install -r requirements_pomdp.txt
+# ============================================================
+-r requirements.txt
+
+# --- POMDP solver (Julia <-> Python bridge) ---
+julia>=0.6.1
+quickpomdps>=0.1.0
+cloudpickle>=3.0
+scipy>=1.11
+scikit-learn>=1.3
+# --- Plotting ---
+matplotlib>=3.9

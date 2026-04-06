@@ -1,0 +1,19 @@
+# Reproducible conda environment for TRIM
+# (Trained Routing for Inference-time Model selection)
+#
+# Create:  conda env create -f environment.yml
+# Update:  conda env update -f environment.yml --prune
+# Export:  conda env export --no-builds > environment.lock.yml
+#
+# Tested on: NCSA Delta gpuA40x4 (NVIDIA A40 48 GB, CUDA 12.x)
+name: trim
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt

@@ -1,0 +1,28 @@
+# ============================================================
+# TRIM — core dependencies
+# Pin major+minor for reproducibility; allow patch updates.
+# ============================================================
+
+# --- Deep-learning framework ---
+torch>=2.4.0,<2.7
+# --- vLLM (model serving) ---
+vllm>=0.8.0
+# --- Hugging Face ---
+# transformers<5 required for vLLM 0.8.x compatibility
+# (transformers 5.0+ removed all_special_tokens_extended)
+transformers>=4.46.0,<5.0.0
+datasets>=3.0.0
+tokenizers>=0.20.0
+# --- OpenAI-compatible client (for vLLM endpoints) ---
+openai>=1.50.0
+httpx>=0.27.0
+# --- Math evaluation ---
+sympy>=1.13
+latex2sympy2>=1.9.1
+word2number>=1.1
+regex>=2024.7.24
+# --- Experiment tracking ---
+wandb>=0.18.0
+# --- Utilities ---
+numpy>=1.26
+tqdm>=4.66

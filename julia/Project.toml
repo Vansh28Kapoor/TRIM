@@ -1,0 +1,13 @@
+[deps]
+AdaOPS = "eadfb9d8-44f1-454c-a5eb-0663ee7d74a1"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+NativeSARSOP = "a07c76ea-660d-4c9a-8028-2e6dbd212cb8"
+POMCPOW = "4c53ee00-974c-466f-8fa5-8dd73959bbab"
+POMDPTools = "7588e00f-9cae-40de-98dc-e0c70c48cdd7"
+POMDPs = "a93abf59-7444-517b-a68a-c42f96afdd7d"
+PackageCompiler = "9b87118b-4619-50d2-8e1e-99f35a4d4d9d"
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+QuickPOMDPs = "8af83fb2-a731-493c-9049-9e19dbce6165"
+
+[compat]
+julia = "1.10"

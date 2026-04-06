@@ -1,0 +1,20 @@
+# Reproducible conda environment for TRIM + POMDP precomputation
+# Subsumes the base 'trim' environment (environment.yml) and adds
+# Julia/PyJulia bridge packages for POMDP policy solving.
+#
+# Create:  conda env create -f environment_pomdp.yml
+# Update:  conda env update -f environment_pomdp.yml --prune
+# Export:  conda env export --no-builds > environment_pomdp.lock.yml
+#
+# Tested on: NCSA Delta gpuA40x4 (NVIDIA A40 48 GB, CUDA 12.x)
+name: trim-pomdp
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements_pomdp.txt

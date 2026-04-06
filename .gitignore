@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Training artifacts
+checkpoints/
+rlpolicy_checkpoints/
+rlpolicy_results/
+results/
+output/
+outputs/
+wandb/
+logs/
+
+# Conda lock (generated, not tracked)
+environment.lock.yml
+
+# OS
+.DS_Store
+
+# Environment variables
+.env
+
+# Slurm logs
+slurm_logs/
+*.out
+*.err
